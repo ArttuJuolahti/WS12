@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Siirtolavat-Etusivu</title>
+    <link href="styles/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class=" navbar   navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Siirtolavat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Koti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="toinen.html">Vaihtolava</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kolmas.html">Kansilava</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="neljäs.html">Kippilava</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Jätteiden helpon kuljettamisen puolesta
+            </span>
+          </div>
+        </div>
+      </nav>
+      
+        <div id="diva1">
+          <h1 class= "lead display-1 text-center  " >
+            Tervetuloa Siirtolavoihin
+          </h1>
+          <br>
+        </div>
+        <br>
+        
+    <div id="diva4" class="container-sm text-center 1">
+      <h2>Siirtolavat</h2>
+      
+      <p>
+       Siirtolavat sivustolla voit tarkastella erilaisia jätteiden kuljettamiseen tarkoitettuja vaihtolavoja. <br>
+        Täällä näet kolme erilaista vaihtoehtoa. Voit halutessasi kertoa meille mikä lavoista on mieleisesi ja miksi.
+      </p>
+      <br>
+      </div>
+      <br>
+      <div id="mallit" class=" container text-center">
+        <div class="row">
+          <div class="col">
+            <h2>Vaihtolava</h2>
+            
+            <img  src="./kuvat/kolme.JPEG" width="380" height="300" alt="kolme vaihtolavaa">
+            <br>
+           <p>
+            <br>Normaali vaihtolava sopii moneen käyttöön. 
+            <p>Lisätietoja vaihtolavaoista alla olevasta linkistä<br><a class="link-opacity-50-hover" href="./toinen.html">Paina tästä</a></p>
+            <br>
+            <br>
+            
+           
+          </div>
+          <div class="col">
+            <h2>Kansilava</h2>
+
+            <img src="./kuvat/kl1.JPEG" width="380" height="300" alt="kansilava">
+            <p><br>Kansilavassa on hydraulipumpulla aukeava kansi</p>
+            
+            <p>Lisätietoja kansilavoista alla olevasta linkistä<br><a class="link-opacity-50-hover" href="./kolmas.html">Paina tästä</a></p>
+          </div>
+          <div class="col">
+            <h2>Kippilava</h2>
+            <img src="./kuvat/k1.JPEG" width="330" height="300" alt="kippilava">
+            <p><br>Kippilavassa ei ole ollenkaa ovia <br></p>
+            
+            <p>Lisätietoja Kippilavoista alla olevasta linkistä<br><a class="link-opacity-50-hover" href="./neljäs.html">Paina tästä</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row justify-content-center mb-2">
+          <div class="col-md-6">
+            <label for="kayttaja" class="form-label">Nimimerkki</label>
+            <input type="text" class="form-control" id="kayttaja" placeholder="Erkki Esimerkki">
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-6">
+            <label for="asia" class="form-label">Kerro mikä sopisi sinulle parhaiten.</label>
+            <textarea class="form-control" id="asia" placeholder="Kerro tässä.." rows="3"></textarea>
+            <br>
+            <input class="btn btn-primary" type="submit" value="lähetä">
+          </div>
+
+        </div>
+        <br>
+        <br>
+        
+      </div>
+      <footer class="text-center mt-5 py-4">
+        <p>&copy; Arttu Juolahti 2024 WS12</p>
+    </footer>
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
